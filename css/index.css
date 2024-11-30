@@ -1,0 +1,41 @@
+* {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    font-family: calibri;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0f0f0f;
+}
+
+nav {
+    height: 80px;
+    background: #090909;
+}
+
+.navbar-container a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 25px 10px;
+    transition: 0.3s ease-in;
+    margin: 0;
+}
+
+.navbar-container img {
+    width: 60px;
+    height: 60px;
+    margin: auto 40vw auto 20vw;
+}
+
+nav a:hover {
+    background: #0f0f0f;
+    color: #d0d0d0;
+}
+
+.navbar-container {
+    height: 80px;
+    display: flex;
+}
